@@ -1,0 +1,94 @@
+body {
+	font-family: 'Raleway', sans-serif;
+}
+
+.navbar-header {
+	background-color: rgba(78, 183, 222,0.8);
+}
+
+.navbar-nav {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.navbar-default .navbar-toggle{
+	border-color: rgba(12, 58, 156);
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: rgba(12, 58, 156);
+}
+
+.navbar-default .navbar-brand {
+	font-size: 26px;
+	color: rgba(12, 58, 156);
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover{
+	background-color: rgba(201, 238, 255);
+}
+
+#collapsed-nav{
+	background-color: rgba(78, 183, 222,0.8);
+}
+
+#nav-list a:focus, #nav-list a:hover{
+	background-color: rgba(201, 238, 255);
+	font-style: bold;
+}
+
+#nav-list p {
+	color: black;
+	font-size:1.3em;
+	margin:0;
+}
+
+.page-header {
+	margin-top: 0;
+}
+
+.menu-desc {
+	padding-left:10px;
+	padding-right:10px; 
+	background-color: rgba(161, 178, 255, 0.7);
+	border: 1px solid black;
+}
+
+.menu-desc h2{
+	font-size: 26px;
+	margin-top: 15px;
+}
+
+.menu-desc p{
+	font-style: italic;
+	font-size: 1.1em;
+}
+
+.menu-desc>a{
+	text-decoration: none;
+	font-weight: bolder;
+	font-size: 1em;
+	color: black;
+}
+
+.menu-desc>a:hover{
+	color:rgba(78, 183, 222);
+}
+
+/***Medium Device***/
+@media (max-width: 1199px) {
+	#sushi{
+		margin-top: 30px
+	}
+}
+
+/***Small Device***/
+
+@media (max-width: 768px) {
+	.page-header{
+		border-bottom: 0px;
+	}
+	#beef {
+		margin-top: 30px
+	}
+}
